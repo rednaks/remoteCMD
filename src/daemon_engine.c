@@ -12,5 +12,5 @@ if(session){
     }else
         printf("erreur lors de l'initialisation de la fonction curl_easy_init()\n"); 
  
-
+return " cmd received " ;
 }
