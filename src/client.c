@@ -10,9 +10,11 @@
 
 #include <stdio.h>
 #include <stdlib.h>
-
+#include"client_engine.h"
 
 int main(int argc, char **argv){
-	
+	sendCMD("cmd");
+
+
 	return 0;
 }
