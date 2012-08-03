@@ -3,7 +3,7 @@
 char *getCMD()  {
 
 CURL * session = curl_easy_init();
-char url="http://localhost/remoteCMD/server.php?getcmd=1";
+char *url="http://localhost/remoteCMD/server.php?getcmd=1";
 
 if(session){
     curl_easy_setopt(session,CURLOPT_URL,url);
