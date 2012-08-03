@@ -9,9 +9,11 @@
 
 #include <stdio.h>
 #include <stdlib.h>
-
+#include "daemon_engine.h"
 
 int main(int argc, char **argv){
 
+	char *cmd;
+	cmd = getCMD();
 	return 0;
 }
